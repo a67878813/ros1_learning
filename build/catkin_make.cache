@@ -1,2 +1,2 @@
-my_minimal_nodes
+catkin_simple:example_ros_msg:my_minimal_nodes
 -DCATKIN_DEVEL_PREFIX=/home/ea/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ea/ros_ws/install -G Unix Makefiles
