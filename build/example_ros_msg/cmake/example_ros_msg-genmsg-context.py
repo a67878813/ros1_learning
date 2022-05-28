@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg"
-services_str = ""
+messages_str = "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg;/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+services_str = "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
 pkg_name = "example_ros_msg"
 dependencies_str = "roscpp;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

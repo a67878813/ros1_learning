@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_ros_msg_generate_messages_lisp"
   "/home/ea/ros_ws/devel/share/common-lisp/ros/example_ros_msg/msg/ExampleMessage.lisp"
+  "/home/ea/ros_ws/devel/share/common-lisp/ros/example_ros_msg/msg/VecOfDoubles.lisp"
+  "/home/ea/ros_ws/devel/share/common-lisp/ros/example_ros_msg/srv/ExampleServiceMsg.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

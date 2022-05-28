@@ -3,5 +3,7 @@
   (:export
    "<EXAMPLEMESSAGE>"
    "EXAMPLEMESSAGE"
+   "<VECOFDOUBLES>"
+   "VECOFDOUBLES"
   ))
 

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "example_ros_msg: 1 messages, 0 services")
+message(STATUS "example_ros_msg: 2 messages, 1 services")
 
 set(MSG_I_FLAGS "-Iexample_ros_msg:/home/ea/ros_ws/src/example_ros_msg/msg;-Iroscpp:/opt/ros/melodic/share/roscpp/cmake/../msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,16 @@ add_custom_target(_example_ros_msg_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "example_ros_msg" "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" "std_msgs/Header"
 )
 
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_custom_target(_example_ros_msg_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "example_ros_msg" "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" ""
+)
+
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
+add_custom_target(_example_ros_msg_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "example_ros_msg" "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -34,8 +44,20 @@ _generate_msg_cpp(example_ros_msg
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/example_ros_msg
 )
+_generate_msg_cpp(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Services
+_generate_srv_cpp(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Module File
 _generate_module_cpp(example_ros_msg
@@ -50,6 +72,10 @@ add_dependencies(example_ros_msg_generate_messages example_ros_msg_generate_mess
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_cpp _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_cpp _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
 add_dependencies(example_ros_msg_generate_messages_cpp _example_ros_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -67,8 +93,20 @@ _generate_msg_eus(example_ros_msg
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/example_ros_msg
 )
+_generate_msg_eus(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Services
+_generate_srv_eus(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Module File
 _generate_module_eus(example_ros_msg
@@ -83,6 +121,10 @@ add_dependencies(example_ros_msg_generate_messages example_ros_msg_generate_mess
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_eus _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_eus _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
 add_dependencies(example_ros_msg_generate_messages_eus _example_ros_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -100,8 +142,20 @@ _generate_msg_lisp(example_ros_msg
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/example_ros_msg
 )
+_generate_msg_lisp(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Services
+_generate_srv_lisp(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Module File
 _generate_module_lisp(example_ros_msg
@@ -116,6 +170,10 @@ add_dependencies(example_ros_msg_generate_messages example_ros_msg_generate_mess
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_lisp _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_lisp _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
 add_dependencies(example_ros_msg_generate_messages_lisp _example_ros_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -133,8 +191,20 @@ _generate_msg_nodejs(example_ros_msg
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/example_ros_msg
 )
+_generate_msg_nodejs(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Services
+_generate_srv_nodejs(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Module File
 _generate_module_nodejs(example_ros_msg
@@ -149,6 +219,10 @@ add_dependencies(example_ros_msg_generate_messages example_ros_msg_generate_mess
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_nodejs _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_nodejs _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
 add_dependencies(example_ros_msg_generate_messages_nodejs _example_ros_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -166,8 +240,20 @@ _generate_msg_py(example_ros_msg
   "/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/example_ros_msg
 )
+_generate_msg_py(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Services
+_generate_srv_py(example_ros_msg
+  "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/example_ros_msg
+)
 
 ### Generating Module File
 _generate_module_py(example_ros_msg
@@ -182,6 +268,10 @@ add_dependencies(example_ros_msg_generate_messages example_ros_msg_generate_mess
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_py _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg" NAME_WE)
+add_dependencies(example_ros_msg_generate_messages_py _example_ros_msg_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv" NAME_WE)
 add_dependencies(example_ros_msg_generate_messages_py _example_ros_msg_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

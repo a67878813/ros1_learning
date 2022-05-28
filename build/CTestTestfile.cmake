@@ -6,5 +6,6 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("catkin_simple")
+subdirs("example_ros_class")
 subdirs("example_ros_msg")
 subdirs("my_minimal_nodes")

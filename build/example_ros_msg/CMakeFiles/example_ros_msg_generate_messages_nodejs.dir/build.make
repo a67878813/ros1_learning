@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/ea/ros_ws/build
 include example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs.dir/progress.make
 
 example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/ExampleMessage.js
+example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/VecOfDoubles.js
+example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/srv/ExampleServiceMsg.js
 
 
 /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/ExampleMessage.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -62,8 +64,20 @@ example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs: /home/ea/ro
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from example_ros_msg/ExampleMessage.msg"
 	cd /home/ea/ros_ws/build/example_ros_msg && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ea/ros_ws/src/example_ros_msg/msg/ExampleMessage.msg -Iexample_ros_msg:/home/ea/ros_ws/src/example_ros_msg/msg -Iroscpp:/opt/ros/melodic/share/roscpp/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p example_ros_msg -o /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg
 
+/home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/VecOfDoubles.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/VecOfDoubles.js: /home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from example_ros_msg/VecOfDoubles.msg"
+	cd /home/ea/ros_ws/build/example_ros_msg && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ea/ros_ws/src/example_ros_msg/msg/VecOfDoubles.msg -Iexample_ros_msg:/home/ea/ros_ws/src/example_ros_msg/msg -Iroscpp:/opt/ros/melodic/share/roscpp/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p example_ros_msg -o /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg
+
+/home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/srv/ExampleServiceMsg.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/srv/ExampleServiceMsg.js: /home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from example_ros_msg/ExampleServiceMsg.srv"
+	cd /home/ea/ros_ws/build/example_ros_msg && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ea/ros_ws/src/example_ros_msg/srv/ExampleServiceMsg.srv -Iexample_ros_msg:/home/ea/ros_ws/src/example_ros_msg/msg -Iroscpp:/opt/ros/melodic/share/roscpp/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p example_ros_msg -o /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/srv
+
 example_ros_msg_generate_messages_nodejs: example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs
 example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/ExampleMessage.js
+example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/msg/VecOfDoubles.js
+example_ros_msg_generate_messages_nodejs: /home/ea/ros_ws/devel/share/gennodejs/ros/example_ros_msg/srv/ExampleServiceMsg.js
 example_ros_msg_generate_messages_nodejs: example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs.dir/build.make
 
 .PHONY : example_ros_msg_generate_messages_nodejs

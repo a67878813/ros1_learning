@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_ros_msg_generate_messages_cpp"
   "/home/ea/ros_ws/devel/include/example_ros_msg/ExampleMessage.h"
+  "/home/ea/ros_ws/devel/include/example_ros_msg/VecOfDoubles.h"
+  "/home/ea/ros_ws/devel/include/example_ros_msg/ExampleServiceMsg.h"
 )
 
 # Per-language clean rules from dependency scanning.
