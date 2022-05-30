@@ -68,7 +68,8 @@ void ExampleRosClass::initializePublishers()
 // note, though, use of member variables and access to minimal_publisher_ (which is a member method)
 void ExampleRosClass::subscriberCallback(const std_msgs::Float32& message_holder) {
     // the real work is done in this callback function
-    // it wakes up every time a new message is published on "exampleMinimalSubTopic"
+    // it wakes up every time a new message is published on "exampleMinimalSubTopic" 
+	// //topic names have been changed
 
     val_from_subscriber_ = message_holder.data; // copy the received data into member variable, so ALL member funcs of ExampleRosClass can access it
     ROS_INFO("myCallback activated: received value %f",val_from_subscriber_);
