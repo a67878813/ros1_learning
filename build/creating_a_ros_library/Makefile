@@ -363,6 +363,21 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule:
+	cd /home/ea/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule
+.PHONY : creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule
+
+# Convenience name for target.
+ros_library_test_main: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule
+
+.PHONY : ros_library_test_main
+
+# fast build rule for target.
+ros_library_test_main/fast:
+	cd /home/ea/ros_ws/build && $(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build
+.PHONY : ros_library_test_main/fast
+
+# Convenience name for target.
 creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
 	cd /home/ea/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
@@ -524,6 +539,33 @@ src/example_ros_class.cpp.s:
 	cd /home/ea/ros_ws/build && $(MAKE) -f creating_a_ros_library/CMakeFiles/example_ros_library.dir/build.make creating_a_ros_library/CMakeFiles/example_ros_library.dir/src/example_ros_class.cpp.s
 .PHONY : src/example_ros_class.cpp.s
 
+src/example_ros_class_test_main.o: src/example_ros_class_test_main.cpp.o
+
+.PHONY : src/example_ros_class_test_main.o
+
+# target to build an object file
+src/example_ros_class_test_main.cpp.o:
+	cd /home/ea/ros_ws/build && $(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/src/example_ros_class_test_main.cpp.o
+.PHONY : src/example_ros_class_test_main.cpp.o
+
+src/example_ros_class_test_main.i: src/example_ros_class_test_main.cpp.i
+
+.PHONY : src/example_ros_class_test_main.i
+
+# target to preprocess a source file
+src/example_ros_class_test_main.cpp.i:
+	cd /home/ea/ros_ws/build && $(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/src/example_ros_class_test_main.cpp.i
+.PHONY : src/example_ros_class_test_main.cpp.i
+
+src/example_ros_class_test_main.s: src/example_ros_class_test_main.cpp.s
+
+.PHONY : src/example_ros_class_test_main.s
+
+# target to generate assembly for a file
+src/example_ros_class_test_main.cpp.s:
+	cd /home/ea/ros_ws/build && $(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/src/example_ros_class_test_main.cpp.s
+.PHONY : src/example_ros_class_test_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -550,6 +592,7 @@ help:
 	@echo "... install"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... ros_library_test_main"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -562,6 +605,9 @@ help:
 	@echo "... src/example_ros_class.o"
 	@echo "... src/example_ros_class.i"
 	@echo "... src/example_ros_class.s"
+	@echo "... src/example_ros_class_test_main.o"
+	@echo "... src/example_ros_class_test_main.i"
+	@echo "... src/example_ros_class_test_main.s"
 .PHONY : help
 
 

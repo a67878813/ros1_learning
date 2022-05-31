@@ -459,6 +459,7 @@ clean: catkin_simple/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 # Convenience name for "all" pass in the directory.
 creating_a_ros_library/all: creating_a_ros_library/CMakeFiles/example_ros_library.dir/all
+creating_a_ros_library/all: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all
 
 .PHONY : creating_a_ros_library/all
 
@@ -476,6 +477,7 @@ creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/std_msgs_generat
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/clean
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 creating_a_ros_library/clean: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
@@ -746,6 +748,7 @@ clean: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # All Build rule for target.
 creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/all: creating_a_ros_library/CMakeFiles/example_ros_library.dir/all
+creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/all: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all
 	$(MAKE) -f creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/build.make creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/depend
 	$(MAKE) -f creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/build.make creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num= "Built target creating_a_ros_library_package"
@@ -753,7 +756,7 @@ creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/all: creati
 
 # Build rule for subdir invocation for target.
 creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ea/ros_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ea/ros_ws/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ea/ros_ws/build/CMakeFiles 0
 .PHONY : creating_a_ros_library/CMakeFiles/creating_a_ros_library_package.dir/rule
@@ -930,6 +933,63 @@ creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 
 # clean rule for target.
 clean: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target creating_a_ros_library/CMakeFiles/ros_library_test_main.dir
+
+# All Build rule for target.
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/example_ros_library.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_py.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_py.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_eus.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all: creating_a_ros_library/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/depend
+	$(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=48,49 "Built target ros_library_test_main"
+.PHONY : creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all
+
+# Include target in all.
+all: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ea/ros_ws/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ea/ros_ws/build/CMakeFiles 0
+.PHONY : creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule
+
+# Convenience name for target.
+ros_library_test_main: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/rule
+
+.PHONY : ros_library_test_main
+
+# clean rule for target.
+creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/clean:
+	$(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/clean
+.PHONY : creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/clean
+
+# clean rule for target.
+clean: creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/clean
 
 .PHONY : clean
 
@@ -1508,7 +1568,7 @@ example_ros_msg/CMakeFiles/vector_subscriber.dir/all: example_ros_msg/CMakeFiles
 example_ros_msg/CMakeFiles/vector_subscriber.dir/all: example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_py.dir/all
 	$(MAKE) -f example_ros_msg/CMakeFiles/vector_subscriber.dir/build.make example_ros_msg/CMakeFiles/vector_subscriber.dir/depend
 	$(MAKE) -f example_ros_msg/CMakeFiles/vector_subscriber.dir/build.make example_ros_msg/CMakeFiles/vector_subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=50,51 "Built target vector_subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=52,53 "Built target vector_subscriber"
 .PHONY : example_ros_msg/CMakeFiles/vector_subscriber.dir/all
 
 # Include target in all.
@@ -1564,7 +1624,7 @@ example_ros_msg/CMakeFiles/vector_publisher.dir/all: example_ros_msg/CMakeFiles/
 example_ros_msg/CMakeFiles/vector_publisher.dir/all: example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_py.dir/all
 	$(MAKE) -f example_ros_msg/CMakeFiles/vector_publisher.dir/build.make example_ros_msg/CMakeFiles/vector_publisher.dir/depend
 	$(MAKE) -f example_ros_msg/CMakeFiles/vector_publisher.dir/build.make example_ros_msg/CMakeFiles/vector_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=48,49 "Built target vector_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ea/ros_ws/build/CMakeFiles --progress-num=50,51 "Built target vector_publisher"
 .PHONY : example_ros_msg/CMakeFiles/vector_publisher.dir/all
 
 # Include target in all.
