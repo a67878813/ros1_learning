@@ -467,19 +467,6 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named ros_library_test_main
-
-# Build rule for target.
-ros_library_test_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ros_library_test_main
-.PHONY : ros_library_test_main
-
-# fast build rule for target.
-ros_library_test_main/fast:
-	$(MAKE) -f creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build.make creating_a_ros_library/CMakeFiles/ros_library_test_main.dir/build
-.PHONY : ros_library_test_main/fast
-
-#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -970,7 +957,6 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... ros_library_test_main"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
