@@ -934,6 +934,32 @@ my_minimal_simulator/fast:
 	$(MAKE) -f my_minimal_nodes/CMakeFiles/my_minimal_simulator.dir/build.make my_minimal_nodes/CMakeFiles/my_minimal_simulator.dir/build
 .PHONY : my_minimal_simulator/fast
 
+#=============================================================================
+# Target rules for targets named ros_library_external_test_main
+
+# Build rule for target.
+ros_library_external_test_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ros_library_external_test_main
+.PHONY : ros_library_external_test_main
+
+# fast build rule for target.
+ros_library_external_test_main/fast:
+	$(MAKE) -f using_a_ros_library/CMakeFiles/ros_library_external_test_main.dir/build.make using_a_ros_library/CMakeFiles/ros_library_external_test_main.dir/build
+.PHONY : ros_library_external_test_main/fast
+
+#=============================================================================
+# Target rules for targets named using_a_ros_library_package
+
+# Build rule for target.
+using_a_ros_library_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 using_a_ros_library_package
+.PHONY : using_a_ros_library_package
+
+# fast build rule for target.
+using_a_ros_library_package/fast:
+	$(MAKE) -f using_a_ros_library/CMakeFiles/using_a_ros_library_package.dir/build.make using_a_ros_library/CMakeFiles/using_a_ros_library_package.dir/build
+.PHONY : using_a_ros_library_package/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1006,6 +1032,8 @@ help:
 	@echo "... my_minimal_publisher"
 	@echo "... my_minimal_controller"
 	@echo "... my_minimal_simulator"
+	@echo "... ros_library_external_test_main"
+	@echo "... using_a_ros_library_package"
 .PHONY : help
 
 

@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ea/ros_ws/build/example_ros_class/cmake_install.cmake")
   include("/home/ea/ros_ws/build/example_ros_msg/cmake_install.cmake")
   include("/home/ea/ros_ws/build/my_minimal_nodes/cmake_install.cmake")
+  include("/home/ea/ros_ws/build/using_a_ros_library/cmake_install.cmake")
 
 endif()
 

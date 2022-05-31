@@ -25,9 +25,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "example_ros_msg/cmake/example_ros_msg-genmsg.cmake"
   "my_minimal_nodes/catkin_generated/ordered_paths.cmake"
   "my_minimal_nodes/catkin_generated/package.cmake"
+  "using_a_ros_library/catkin_generated/ordered_paths.cmake"
+  "using_a_ros_library/catkin_generated/package.cmake"
   "/home/ea/ros_ws/devel/share/catkin_simple/cmake/catkin_simple-extras.cmake"
   "/home/ea/ros_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig-version.cmake"
   "/home/ea/ros_ws/devel/share/catkin_simple/cmake/catkin_simpleConfig.cmake"
+  "/home/ea/ros_ws/devel/share/creating_a_ros_library/cmake/creating_a_ros_libraryConfig-version.cmake"
+  "/home/ea/ros_ws/devel/share/creating_a_ros_library/cmake/creating_a_ros_libraryConfig.cmake"
   "/home/ea/ros_ws/devel/share/example_ros_msg/cmake/example_ros_msg-msg-paths.cmake"
   "/home/ea/ros_ws/src/CMakeLists.txt"
   "/home/ea/ros_ws/src/catkin_simple/CMakeLists.txt"
@@ -41,6 +45,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ea/ros_ws/src/example_ros_msg/package.xml"
   "/home/ea/ros_ws/src/my_minimal_nodes/CMakeLists.txt"
   "/home/ea/ros_ws/src/my_minimal_nodes/package.xml"
+  "/home/ea/ros_ws/src/using_a_ros_library/CMakeLists.txt"
+  "/home/ea/ros_ws/src/using_a_ros_library/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"
@@ -231,6 +237,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "example_ros_class/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example_ros_msg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_minimal_nodes/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "using_a_ros_library/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -294,4 +301,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "my_minimal_nodes/CMakeFiles/my_minimal_publisher.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/my_minimal_controller.dir/DependInfo.cmake"
   "my_minimal_nodes/CMakeFiles/my_minimal_simulator.dir/DependInfo.cmake"
+  "using_a_ros_library/CMakeFiles/ros_library_external_test_main.dir/DependInfo.cmake"
+  "using_a_ros_library/CMakeFiles/using_a_ros_library_package.dir/DependInfo.cmake"
   )
