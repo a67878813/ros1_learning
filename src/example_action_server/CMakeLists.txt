@@ -33,10 +33,13 @@ catkin_simple()
 # may add more of these lines for more nodes from the same package
 # cs_add_executable(example src/example.cpp)
 
-#the following is required, if desire to link a node in this package with a library created in this same package
-# edit the arguments to reference the named node and named library within this package
-# target_link_library(example my_lib)
-
+# Executables
+cs_add_executable(example_ros_service src/example_ros_service.cpp)
+cs_add_executable(example_ros_client src/example_ros_client.cpp)
+cs_add_executable(path_service src/path_service.cpp)
+cs_add_executable(path_service2 src/path_service2.cpp)
+#cs_add_executable(path_service_soln src/path_service_soln.cpp)
+cs_add_executable(path_client src/path_client.cpp)
 cs_install()
 cs_export()
-    
+        
