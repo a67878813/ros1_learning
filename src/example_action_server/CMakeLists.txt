@@ -17,7 +17,6 @@ find_package(catkin_simple REQUIRED)
 #include_directories(${EIGEN3_INCLUDE_DIR})
 #add_definitions(${EIGEN_DEFINITIONS})
 
-catkin_simple()
 
 # example boost usage
 # find_package(Boost REQUIRED COMPONENTS system thread)
@@ -32,14 +31,14 @@ catkin_simple()
 # Executables: uncomment the following and edit arguments to compile new nodes
 # may add more of these lines for more nodes from the same package
 # cs_add_executable(example src/example.cpp)
+# example boost usage
+find_package(Boost REQUIRED COMPONENTS system thread)
+catkin_simple()
 
 # Executables
-cs_add_executable(example_ros_service src/example_ros_service.cpp)
-cs_add_executable(example_ros_client src/example_ros_client.cpp)
-cs_add_executable(path_service src/path_service.cpp)
-cs_add_executable(path_service2 src/path_service2.cpp)
-#cs_add_executable(path_service_soln src/path_service_soln.cpp)
-cs_add_executable(path_client src/path_client.cpp)
+cs_add_executable(example_action_server src/example_action_server.cpp)
+cs_add_executable(example_action_client src/example_action_client.cpp)
+cs_add_executable(example_countdown_server src/example_action_server_w_fdbk.cpp)
+cs_add_executable(timer_client src/timer_client.cpp)
 cs_install()
-cs_export()
-        
+cs_export()     
