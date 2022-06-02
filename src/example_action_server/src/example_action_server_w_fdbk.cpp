@@ -78,6 +78,7 @@ void ExampleActionServer::executeCB(const actionlib::SimpleActionServer<example_
     ROS_INFO("in executeCB");
     ROS_INFO("goal input is: %d", goal->input);
     //do work here: this is where your interesting code goes
+	//
     ros::Rate timer(1.0); // 1Hz timer
     countdown_val_ = goal->input;
     //implement a simple timer, which counts down from provided countdown_val to 0, in seconds
@@ -95,6 +96,7 @@ void ExampleActionServer::executeCB(const actionlib::SimpleActionServer<example_
  	   //if here, then goal is still valid; provide some feedback
  	   feedback_.fdbk = countdown_val_; // populate feedback message with current countdown value
  	   as_.publishFeedback(feedback_); // send feedback to the action client that requested this goal
+
        countdown_val_--; //decrement the timer countdown
        timer.sleep(); //wait 1 sec between loop iterations of this timer
     }

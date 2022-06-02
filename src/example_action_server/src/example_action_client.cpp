@@ -23,6 +23,15 @@ void doneCb(const actionlib::SimpleClientGoalState& state,
     ROS_INFO(" doneCb: server responded with state [%s]", state.toString().c_str());
     int diff = result->output - result->goal_stamp;
     ROS_INFO("got result output = %d; goal_stamp = %d; diff = %d", result->output, result->goal_stamp, diff);
+
+    ROS_INFO_STREAM("got result output = "
+			<< result->output
+			<<"; goal_stamp = "
+			<< result->goal_stamp
+			<< "; diff = "
+			<< diff
+			<<std::endl
+			);
 }
 
 int main(int argc, char** argv) {
