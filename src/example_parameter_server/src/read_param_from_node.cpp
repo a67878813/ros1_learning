@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
 			<< " "
 				);
 	}
-	ROS_INFO_STREAM(std::endl);
+	//ROS_INFO_STREAM(std::endl);
 
 }
 
