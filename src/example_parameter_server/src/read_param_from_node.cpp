@@ -1,4 +1,9 @@
 #include <ros/ros.h>
+#include <vector>
+#include <string>
+using std::vector;
+using std::string;
+
 
 int main(int argc, char **argv) {
     ros::init(argc, argv, "param_reader"); // name of this node will be "minimal_publisher"
@@ -26,5 +31,20 @@ int main(int argc, char **argv) {
     {
     ROS_WARN("could not find parameter value /joint1_gains/i on parameter server");
     }
+	//========================
+    ROS_INFO("testttttttttttttttt=====lkl");
+	std::vector<std::string> keys;
+	nh.getParamNames(keys);
+	for (auto i :keys){
+		ROS_INFO_STREAM(
+			i 
+			<< " "
+			
+
+				)
+	}
+	ROS_INFO_STREAM(std::endl);
+
 }
+
 
