@@ -366,6 +366,12 @@ example_action_server_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_action_ser
 example_action_server_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/example_action_server
 
 //Value Computed by CMake
+example_parameter_server_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_parameter_server
+
+//Value Computed by CMake
+example_parameter_server_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/example_parameter_server
+
+//Value Computed by CMake
 example_ros_class_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_ros_class
 
 //Value Computed by CMake
@@ -633,7 +639,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

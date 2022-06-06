@@ -597,6 +597,32 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named example_parameter_server_package
+
+# Build rule for target.
+example_parameter_server_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_parameter_server_package
+.PHONY : example_parameter_server_package
+
+# fast build rule for target.
+example_parameter_server_package/fast:
+	$(MAKE) -f example_parameter_server/CMakeFiles/example_parameter_server_package.dir/build.make example_parameter_server/CMakeFiles/example_parameter_server_package.dir/build
+.PHONY : example_parameter_server_package/fast
+
+#=============================================================================
+# Target rules for targets named read_param_from_node
+
+# Build rule for target.
+read_param_from_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 read_param_from_node
+.PHONY : read_param_from_node
+
+# fast build rule for target.
+read_param_from_node/fast:
+	$(MAKE) -f example_parameter_server/CMakeFiles/read_param_from_node.dir/build.make example_parameter_server/CMakeFiles/read_param_from_node.dir/build
+.PHONY : read_param_from_node/fast
+
+#=============================================================================
 # Target rules for targets named example_ros_class
 
 # Build rule for target.
@@ -1435,6 +1461,8 @@ help:
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... example_parameter_server_package"
+	@echo "... read_param_from_node"
 	@echo "... example_ros_class"
 	@echo "... example_ros_class_package"
 	@echo "... example_ros_client"

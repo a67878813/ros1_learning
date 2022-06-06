@@ -1,0 +1,4 @@
+<launch>
+<rosparam command="load" file = "jnt1_gains.yaml"  />
+
+</launch>
