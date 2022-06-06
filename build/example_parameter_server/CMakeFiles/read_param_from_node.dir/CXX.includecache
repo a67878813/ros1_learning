@@ -9,6 +9,10 @@
 /home/ea/ros_ws/src/example_parameter_server/src/read_param_from_node.cpp
 ros/ros.h
 -
+vector
+-
+string
+-
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

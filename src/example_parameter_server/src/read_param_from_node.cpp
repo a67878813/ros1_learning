@@ -39,9 +39,7 @@ int main(int argc, char **argv) {
 		ROS_INFO_STREAM(
 			i 
 			<< " "
-			
-
-				)
+				);
 	}
 	ROS_INFO_STREAM(std::endl);
 
