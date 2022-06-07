@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(stdr_control)
 
 find_package(catkin_simple REQUIRED)
-
+add_compile_options(-std=c++14)
 #uncomment next line to use OpenCV library
 #find_package(OpenCV REQUIRED)
 
