@@ -60,5 +60,6 @@ int main(int argc, char **argv) {
       loop_timer.sleep();
     }               
     //done commanding the robot; node runs to completion
+	return 0;
 }
 
