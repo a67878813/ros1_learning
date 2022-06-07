@@ -240,6 +240,16 @@
 /home/ea/ros_ws/build/my_minimal_nodes/CMakeFiles/my_minimal_controller.dir
 /home/ea/ros_ws/build/my_minimal_nodes/CMakeFiles/test.dir
 /home/ea/ros_ws/build/my_minimal_nodes/CMakeFiles/my_minimal_simulator.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/install/strip.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/install.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/list_install_components.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/stdr_open_loop_commander.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/rebuild_cache.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/stdr_control_package.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/edit_cache.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/reactive_commander.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/install/local.dir
+/home/ea/ros_ws/build/stdr_control/CMakeFiles/test.dir
 /home/ea/ros_ws/build/stdr_simulator/stdr_parser/CMakeFiles/install/strip.dir
 /home/ea/ros_ws/build/stdr_simulator/stdr_parser/CMakeFiles/install/local.dir
 /home/ea/ros_ws/build/stdr_simulator/stdr_parser/CMakeFiles/test.dir

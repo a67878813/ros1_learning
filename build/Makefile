@@ -2040,6 +2040,45 @@ my_minimal_simulator/fast:
 .PHONY : my_minimal_simulator/fast
 
 #=============================================================================
+# Target rules for targets named stdr_open_loop_commander
+
+# Build rule for target.
+stdr_open_loop_commander: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdr_open_loop_commander
+.PHONY : stdr_open_loop_commander
+
+# fast build rule for target.
+stdr_open_loop_commander/fast:
+	$(MAKE) -f stdr_control/CMakeFiles/stdr_open_loop_commander.dir/build.make stdr_control/CMakeFiles/stdr_open_loop_commander.dir/build
+.PHONY : stdr_open_loop_commander/fast
+
+#=============================================================================
+# Target rules for targets named stdr_control_package
+
+# Build rule for target.
+stdr_control_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdr_control_package
+.PHONY : stdr_control_package
+
+# fast build rule for target.
+stdr_control_package/fast:
+	$(MAKE) -f stdr_control/CMakeFiles/stdr_control_package.dir/build.make stdr_control/CMakeFiles/stdr_control_package.dir/build
+.PHONY : stdr_control_package/fast
+
+#=============================================================================
+# Target rules for targets named reactive_commander
+
+# Build rule for target.
+reactive_commander: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reactive_commander
+.PHONY : reactive_commander
+
+# fast build rule for target.
+reactive_commander/fast:
+	$(MAKE) -f stdr_control/CMakeFiles/reactive_commander.dir/build.make stdr_control/CMakeFiles/reactive_commander.dir/build
+.PHONY : reactive_commander/fast
+
+#=============================================================================
 # Target rules for targets named stdr_parser
 
 # Build rule for target.
@@ -3340,6 +3379,9 @@ help:
 	@echo "... my_minimal_publisher"
 	@echo "... my_minimal_controller"
 	@echo "... my_minimal_simulator"
+	@echo "... stdr_open_loop_commander"
+	@echo "... stdr_control_package"
+	@echo "... reactive_commander"
 	@echo "... stdr_parser"
 	@echo "... example_action_server"
 	@echo "... example_action_client"
