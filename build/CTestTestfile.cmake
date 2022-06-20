@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("catkin_simple")
+subdirs("minimal_robot_description")
 subdirs("stdr_simulator/stdr_launchers")
 subdirs("stdr_simulator/stdr_msgs")
 subdirs("stdr_simulator/stdr_resources")
