@@ -1037,6 +1037,12 @@ example_ros_msg_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_ros_msg
 //Value Computed by CMake
 example_ros_msg_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/example_ros_msg
 
+//Value Computed by CMake
+exmpl_models_BINARY_DIR:STATIC=/home/ea/ros_ws/build/exmpl_models
+
+//Value Computed by CMake
+exmpl_models_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/exmpl_models
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
 
@@ -1470,7 +1476,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=24
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

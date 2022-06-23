@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ea/ros_ws/build/gtest/cmake_install.cmake")
   include("/home/ea/ros_ws/build/catkin_simple/cmake_install.cmake")
+  include("/home/ea/ros_ws/build/exmpl_models/cmake_install.cmake")
   include("/home/ea/ros_ws/build/minimal_robot_description/cmake_install.cmake")
   include("/home/ea/ros_ws/build/stdr_simulator/stdr_launchers/cmake_install.cmake")
   include("/home/ea/ros_ws/build/stdr_simulator/stdr_msgs/cmake_install.cmake")

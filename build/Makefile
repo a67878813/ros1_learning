@@ -298,6 +298,19 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
+# Target rules for targets named exmpl_models_package
+
+# Build rule for target.
+exmpl_models_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exmpl_models_package
+.PHONY : exmpl_models_package
+
+# fast build rule for target.
+exmpl_models_package/fast:
+	$(MAKE) -f exmpl_models/CMakeFiles/exmpl_models_package.dir/build.make exmpl_models/CMakeFiles/exmpl_models_package.dir/build
+.PHONY : exmpl_models_package/fast
+
+#=============================================================================
 # Target rules for targets named stdr_msgs_genpy
 
 # Build rule for target.
@@ -3245,6 +3258,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... exmpl_models_package"
 	@echo "... stdr_msgs_genpy"
 	@echo "... stdr_msgs_gennodejs"
 	@echo "... stdr_msgs_generate_messages_nodejs"
