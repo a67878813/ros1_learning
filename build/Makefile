@@ -2469,17 +2469,459 @@ _example_action_server_generate_messages_check_deps_demoGoal/fast:
 .PHONY : _example_action_server_generate_messages_check_deps_demoGoal/fast
 
 #=============================================================================
-# Target rules for targets named robot_handler
+# Target rules for targets named trajectory_msgs_generate_messages_eus
 
 # Build rule for target.
-robot_handler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 robot_handler
-.PHONY : robot_handler
+trajectory_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_eus
+.PHONY : trajectory_msgs_generate_messages_eus
 
 # fast build rule for target.
-robot_handler/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/robot_handler.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/robot_handler.dir/build
-.PHONY : robot_handler/fast
+trajectory_msgs_generate_messages_eus/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+.PHONY : trajectory_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_genpy
+
+# Build rule for target.
+example_gazebo_set_state_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_genpy
+.PHONY : example_gazebo_set_state_genpy
+
+# fast build rule for target.
+example_gazebo_set_state_genpy/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_genpy.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_genpy.dir/build
+.PHONY : example_gazebo_set_state_genpy/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_nodejs
+
+# Build rule for target.
+trajectory_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_nodejs
+.PHONY : trajectory_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+.PHONY : trajectory_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make example_gazebo_set_state/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages_nodejs
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages_nodejs
+.PHONY : example_gazebo_set_state_generate_messages_nodejs
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages_nodejs/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_nodejs.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_nodejs.dir/build
+.PHONY : example_gazebo_set_state_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_cpp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_cpp
+.PHONY : trajectory_msgs_generate_messages_cpp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+.PHONY : trajectory_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_eus
+
+# Build rule for target.
+gazebo_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_eus
+.PHONY : gazebo_msgs_generate_messages_eus
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_eus/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+.PHONY : gazebo_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_cpp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_cpp
+.PHONY : gazebo_msgs_generate_messages_cpp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+.PHONY : gazebo_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages
+.PHONY : example_gazebo_set_state_generate_messages
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages.dir/build
+.PHONY : example_gazebo_set_state_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_lisp
+
+# Build rule for target.
+trajectory_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_lisp
+.PHONY : trajectory_msgs_generate_messages_lisp
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+.PHONY : trajectory_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_nodejs
+
+# Build rule for target.
+gazebo_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_nodejs
+.PHONY : gazebo_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+.PHONY : gazebo_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_lisp
+
+# Build rule for target.
+gazebo_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_lisp
+.PHONY : gazebo_msgs_generate_messages_lisp
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+.PHONY : gazebo_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_package
+
+# Build rule for target.
+example_gazebo_set_state_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_package
+.PHONY : example_gazebo_set_state_package
+
+# fast build rule for target.
+example_gazebo_set_state_package/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_package.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_package.dir/build
+.PHONY : example_gazebo_set_state_package/fast
+
+#=============================================================================
+# Target rules for targets named trajectory_msgs_generate_messages_py
+
+# Build rule for target.
+trajectory_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trajectory_msgs_generate_messages_py
+.PHONY : trajectory_msgs_generate_messages_py
+
+# fast build rule for target.
+trajectory_msgs_generate_messages_py/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make example_gazebo_set_state/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+.PHONY : trajectory_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_msgs_generate_messages_py
+
+# Build rule for target.
+gazebo_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_msgs_generate_messages_py
+.PHONY : gazebo_msgs_generate_messages_py
+
+# fast build rule for target.
+gazebo_msgs_generate_messages_py/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make example_gazebo_set_state/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+.PHONY : gazebo_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _example_gazebo_set_state_generate_messages_check_deps_SrvInt
+
+# Build rule for target.
+_example_gazebo_set_state_generate_messages_check_deps_SrvInt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _example_gazebo_set_state_generate_messages_check_deps_SrvInt
+.PHONY : _example_gazebo_set_state_generate_messages_check_deps_SrvInt
+
+# fast build rule for target.
+_example_gazebo_set_state_generate_messages_check_deps_SrvInt/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/_example_gazebo_set_state_generate_messages_check_deps_SrvInt.dir/build.make example_gazebo_set_state/CMakeFiles/_example_gazebo_set_state_generate_messages_check_deps_SrvInt.dir/build
+.PHONY : _example_gazebo_set_state_generate_messages_check_deps_SrvInt/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_gencpp
+
+# Build rule for target.
+example_gazebo_set_state_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_gencpp
+.PHONY : example_gazebo_set_state_gencpp
+
+# fast build rule for target.
+example_gazebo_set_state_gencpp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_gencpp.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_gencpp.dir/build
+.PHONY : example_gazebo_set_state_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_gennodejs
+
+# Build rule for target.
+example_gazebo_set_state_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_gennodejs
+.PHONY : example_gazebo_set_state_gennodejs
+
+# fast build rule for target.
+example_gazebo_set_state_gennodejs/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_gennodejs.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_gennodejs.dir/build
+.PHONY : example_gazebo_set_state_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages_eus
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages_eus
+.PHONY : example_gazebo_set_state_generate_messages_eus
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages_eus/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_eus.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_eus.dir/build
+.PHONY : example_gazebo_set_state_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_1
+
+# Build rule for target.
+example_gazebo_set_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_1
+.PHONY : example_gazebo_set_1
+
+# fast build rule for target.
+example_gazebo_set_1/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_1.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_1.dir/build
+.PHONY : example_gazebo_set_1/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_prism_state
+
+# Build rule for target.
+example_gazebo_set_prism_state: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_prism_state
+.PHONY : example_gazebo_set_prism_state
+
+# fast build rule for target.
+example_gazebo_set_prism_state/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_prism_state.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_prism_state.dir/build
+.PHONY : example_gazebo_set_prism_state/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages_cpp
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages_cpp
+.PHONY : example_gazebo_set_state_generate_messages_cpp
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages_cpp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_cpp.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_cpp.dir/build
+.PHONY : example_gazebo_set_state_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_geneus
+
+# Build rule for target.
+example_gazebo_set_state_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_geneus
+.PHONY : example_gazebo_set_state_geneus
+
+# fast build rule for target.
+example_gazebo_set_state_geneus/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_geneus.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_geneus.dir/build
+.PHONY : example_gazebo_set_state_geneus/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages_lisp
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages_lisp
+.PHONY : example_gazebo_set_state_generate_messages_lisp
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages_lisp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_lisp.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_lisp.dir/build
+.PHONY : example_gazebo_set_state_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_genlisp
+
+# Build rule for target.
+example_gazebo_set_state_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_genlisp
+.PHONY : example_gazebo_set_state_genlisp
+
+# fast build rule for target.
+example_gazebo_set_state_genlisp/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_genlisp.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_genlisp.dir/build
+.PHONY : example_gazebo_set_state_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named set_block_state
+
+# Build rule for target.
+set_block_state: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_block_state
+.PHONY : set_block_state
+
+# fast build rule for target.
+set_block_state/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/set_block_state.dir/build.make example_gazebo_set_state/CMakeFiles/set_block_state.dir/build
+.PHONY : set_block_state/fast
+
+#=============================================================================
+# Target rules for targets named example_gazebo_set_state_generate_messages_py
+
+# Build rule for target.
+example_gazebo_set_state_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_gazebo_set_state_generate_messages_py
+.PHONY : example_gazebo_set_state_generate_messages_py
+
+# fast build rule for target.
+example_gazebo_set_state_generate_messages_py/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_py.dir/build.make example_gazebo_set_state/CMakeFiles/example_gazebo_set_state_generate_messages_py.dir/build
+.PHONY : example_gazebo_set_state_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named reset_block_state
+
+# Build rule for target.
+reset_block_state: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reset_block_state
+.PHONY : reset_block_state
+
+# fast build rule for target.
+reset_block_state/fast:
+	$(MAKE) -f example_gazebo_set_state/CMakeFiles/reset_block_state.dir/build.make example_gazebo_set_state/CMakeFiles/reset_block_state.dir/build
+.PHONY : reset_block_state/fast
+
+#=============================================================================
+# Target rules for targets named minimal_joint_controller
+
+# Build rule for target.
+minimal_joint_controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimal_joint_controller
+.PHONY : minimal_joint_controller
+
+# fast build rule for target.
+minimal_joint_controller/fast:
+	$(MAKE) -f minimal_joint_controller/CMakeFiles/minimal_joint_controller.dir/build.make minimal_joint_controller/CMakeFiles/minimal_joint_controller.dir/build
+.PHONY : minimal_joint_controller/fast
+
+#=============================================================================
+# Target rules for targets named minimal_joint_controller_package
+
+# Build rule for target.
+minimal_joint_controller_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 minimal_joint_controller_package
+.PHONY : minimal_joint_controller_package
+
+# fast build rule for target.
+minimal_joint_controller_package/fast:
+	$(MAKE) -f minimal_joint_controller/CMakeFiles/minimal_joint_controller_package.dir/build.make minimal_joint_controller/CMakeFiles/minimal_joint_controller_package.dir/build
+.PHONY : minimal_joint_controller_package/fast
+
+#=============================================================================
+# Target rules for targets named tf2_msgs_generate_messages_cpp
+
+# Build rule for target.
+tf2_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_cpp
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named tf_generate_messages_lisp
@@ -2547,19 +2989,6 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_nodejs
-
-# Build rule for target.
-tf2_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_nodejs
-.PHONY : tf2_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-tf2_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-.PHONY : tf2_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
 # Target rules for targets named tf_generate_messages_py
 
 # Build rule for target.
@@ -2573,17 +3002,17 @@ tf_generate_messages_py/fast:
 .PHONY : tf_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_py
+# Target rules for targets named tf2_msgs_generate_messages_nodejs
 
 # Build rule for target.
-sensor_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
-.PHONY : sensor_msgs_generate_messages_py
+tf2_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_nodejs
+.PHONY : tf2_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
+tf2_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+.PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_eus
@@ -2625,19 +3054,6 @@ tf_generate_messages_cpp/fast:
 .PHONY : tf_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
-
-# Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-#=============================================================================
 # Target rules for targets named nodelet_generate_messages_lisp
 
 # Build rule for target.
@@ -2649,19 +3065,6 @@ nodelet_generate_messages_lisp: cmake_check_build_system
 nodelet_generate_messages_lisp/fast:
 	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_eus
-
-# Build rule for target.
-sensor_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_py
@@ -2755,71 +3158,6 @@ stdr_co2_sensor/fast:
 .PHONY : stdr_co2_sensor/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
-
-# Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_nodejs
-
-# Build rule for target.
-sensor_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named stdr_omni_motion_controller
-
-# Build rule for target.
-stdr_omni_motion_controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stdr_omni_motion_controller
-.PHONY : stdr_omni_motion_controller
-
-# fast build rule for target.
-stdr_omni_motion_controller/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/stdr_omni_motion_controller.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/stdr_omni_motion_controller.dir/build
-.PHONY : stdr_omni_motion_controller/fast
-
-#=============================================================================
-# Target rules for targets named stdr_thermal_sensor
-
-# Build rule for target.
-stdr_thermal_sensor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stdr_thermal_sensor
-.PHONY : stdr_thermal_sensor
-
-# fast build rule for target.
-stdr_thermal_sensor/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/stdr_thermal_sensor.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/stdr_thermal_sensor.dir/build
-.PHONY : stdr_thermal_sensor/fast
-
-#=============================================================================
-# Target rules for targets named tf2_msgs_generate_messages_cpp
-
-# Build rule for target.
-tf2_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tf2_msgs_generate_messages_cpp
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-#=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_py
 
 # Build rule for target.
@@ -2844,6 +3182,19 @@ tf2_msgs_generate_messages_lisp: cmake_check_build_system
 tf2_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named robot_handler
+
+# Build rule for target.
+robot_handler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_handler
+.PHONY : robot_handler
+
+# fast build rule for target.
+robot_handler/fast:
+	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/robot_handler.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/robot_handler.dir/build
+.PHONY : robot_handler/fast
 
 #=============================================================================
 # Target rules for targets named stdr_sonar
@@ -2883,6 +3234,32 @@ stdr_robot_nodelet: cmake_check_build_system
 stdr_robot_nodelet/fast:
 	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/stdr_robot_nodelet.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/stdr_robot_nodelet.dir/build
 .PHONY : stdr_robot_nodelet/fast
+
+#=============================================================================
+# Target rules for targets named stdr_omni_motion_controller
+
+# Build rule for target.
+stdr_omni_motion_controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdr_omni_motion_controller
+.PHONY : stdr_omni_motion_controller
+
+# fast build rule for target.
+stdr_omni_motion_controller/fast:
+	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/stdr_omni_motion_controller.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/stdr_omni_motion_controller.dir/build
+.PHONY : stdr_omni_motion_controller/fast
+
+#=============================================================================
+# Target rules for targets named stdr_thermal_sensor
+
+# Build rule for target.
+stdr_thermal_sensor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stdr_thermal_sensor
+.PHONY : stdr_thermal_sensor
+
+# fast build rule for target.
+stdr_thermal_sensor/fast:
+	$(MAKE) -f stdr_simulator/stdr_robot/CMakeFiles/stdr_thermal_sensor.dir/build.make stdr_simulator/stdr_robot/CMakeFiles/stdr_thermal_sensor.dir/build
+.PHONY : stdr_thermal_sensor/fast
 
 #=============================================================================
 # Target rules for targets named bond_generate_messages_lisp
@@ -3425,21 +3802,52 @@ help:
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... _example_action_server_generate_messages_check_deps_demoFeedback"
 	@echo "... _example_action_server_generate_messages_check_deps_demoGoal"
-	@echo "... robot_handler"
+	@echo "... trajectory_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... example_gazebo_set_state_genpy"
+	@echo "... trajectory_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... example_gazebo_set_state_generate_messages_nodejs"
+	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... gazebo_msgs_generate_messages_eus"
+	@echo "... gazebo_msgs_generate_messages_cpp"
+	@echo "... example_gazebo_set_state_generate_messages"
+	@echo "... trajectory_msgs_generate_messages_lisp"
+	@echo "... gazebo_msgs_generate_messages_nodejs"
+	@echo "... gazebo_msgs_generate_messages_lisp"
+	@echo "... example_gazebo_set_state_package"
+	@echo "... trajectory_msgs_generate_messages_py"
+	@echo "... gazebo_msgs_generate_messages_py"
+	@echo "... _example_gazebo_set_state_generate_messages_check_deps_SrvInt"
+	@echo "... example_gazebo_set_state_gencpp"
+	@echo "... example_gazebo_set_state_gennodejs"
+	@echo "... example_gazebo_set_state_generate_messages_eus"
+	@echo "... example_gazebo_set_1"
+	@echo "... example_gazebo_set_prism_state"
+	@echo "... example_gazebo_set_state_generate_messages_cpp"
+	@echo "... example_gazebo_set_state_geneus"
+	@echo "... example_gazebo_set_state_generate_messages_lisp"
+	@echo "... example_gazebo_set_state_genlisp"
+	@echo "... set_block_state"
+	@echo "... example_gazebo_set_state_generate_messages_py"
+	@echo "... reset_block_state"
+	@echo "... minimal_joint_controller"
+	@echo "... minimal_joint_controller_package"
+	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_eus"
 	@echo "... stdr_rfid_reader"
 	@echo "... bond_generate_messages_nodejs"
 	@echo "... nodelet_generate_messages_py"
-	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... bond_generate_messages_eus"
 	@echo "... nodelet_generate_messages_eus"
 	@echo "... tf_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... bond_generate_messages_py"
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... stdr_sensor_base"
@@ -3447,16 +3855,14 @@ help:
 	@echo "... tf_generate_messages_eus"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... stdr_co2_sensor"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... stdr_omni_motion_controller"
-	@echo "... stdr_thermal_sensor"
-	@echo "... tf2_msgs_generate_messages_cpp"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_lisp"
+	@echo "... robot_handler"
 	@echo "... stdr_sonar"
 	@echo "... stdr_microphone_sensor"
 	@echo "... stdr_robot_nodelet"
+	@echo "... stdr_omni_motion_controller"
+	@echo "... stdr_thermal_sensor"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... stdr_laser"
 	@echo "... tf_generate_messages_nodejs"

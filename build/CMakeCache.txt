@@ -1017,6 +1017,12 @@ example_action_server_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_action_ser
 example_action_server_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/example_action_server
 
 //Value Computed by CMake
+example_gazebo_set_state_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_gazebo_set_state
+
+//Value Computed by CMake
+example_gazebo_set_state_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/example_gazebo_set_state
+
+//Value Computed by CMake
 example_parameter_server_BINARY_DIR:STATIC=/home/ea/ros_ws/build/example_parameter_server
 
 //Value Computed by CMake
@@ -1042,6 +1048,9 @@ exmpl_models_BINARY_DIR:STATIC=/home/ea/ros_ws/build/exmpl_models
 
 //Value Computed by CMake
 exmpl_models_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/exmpl_models
+
+//The directory containing a CMake configuration file for gazebo_msgs.
+gazebo_msgs_DIR:PATH=/opt/ros/melodic/share/gazebo_msgs/cmake
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
@@ -1127,6 +1136,12 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//Value Computed by CMake
+minimal_joint_controller_BINARY_DIR:STATIC=/home/ea/ros_ws/build/minimal_joint_controller
+
+//Value Computed by CMake
+minimal_joint_controller_SOURCE_DIR:STATIC=/home/ea/ros_ws/src/minimal_joint_controller
 
 //Value Computed by CMake
 minimal_robot_description_BINARY_DIR:STATIC=/home/ea/ros_ws/build/minimal_robot_description
@@ -1326,6 +1341,9 @@ tf2_ros_DIR:PATH=/opt/ros/melodic/share/tf2_ros/cmake
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/melodic/share/tf/cmake
 
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
+
 //Value Computed by CMake
 using_a_ros_library_BINARY_DIR:STATIC=/home/ea/ros_ws/build/using_a_ros_library
 
@@ -1476,7 +1494,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
