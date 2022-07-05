@@ -2001,6 +2001,19 @@ example_ros_msg_generate_messages_py/fast:
 .PHONY : example_ros_msg_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named mobot_urdf_package
+
+# Build rule for target.
+mobot_urdf_package: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mobot_urdf_package
+.PHONY : mobot_urdf_package
+
+# fast build rule for target.
+mobot_urdf_package/fast:
+	$(MAKE) -f mobot_urdf/CMakeFiles/mobot_urdf_package.dir/build.make mobot_urdf/CMakeFiles/mobot_urdf_package.dir/build
+.PHONY : mobot_urdf_package/fast
+
+#=============================================================================
 # Target rules for targets named my_minimal_subscriber
 
 # Build rule for target.
@@ -3766,6 +3779,7 @@ help:
 	@echo "... example_ros_msg_generate_messages_nodejs"
 	@echo "... example_ros_msg_gennodejs"
 	@echo "... example_ros_msg_generate_messages_py"
+	@echo "... mobot_urdf_package"
 	@echo "... my_minimal_subscriber"
 	@echo "... my_minimal_publisher"
 	@echo "... my_minimal_controller"
